@@ -14,7 +14,7 @@ export const CardProduct: FC<Props> = ({product}) => {
     const { dispatch } = useCartContext()
 
     const item: CartProduct = {
-        id: product.id,
+        id: parseInt(product.id),
         name: product.title,
         image: product.image,
         price: product.price,

@@ -12,12 +12,12 @@ export const CardCredit = () => {
     name: "",
     expiry: "",
     cvc: "",
-    focus: "",
+    focus: "" as "number" | "name" | "expiry" | "cvc" | "", // Asegurando el tipo correcto
   });
 
-  const {dispatch} = useCartContext()
+  const { dispatch } = useCartContext()
 
-  const { number, name, expiry, cvc } = cardData;
+  const { number, name, expiry, cvc, focus } = cardData;
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setCardData({
@@ -29,7 +29,7 @@ export const CardCredit = () => {
   const handleInputFocus = (e: React.FocusEvent<HTMLInputElement>) => {
     setCardData({
       ...cardData,
-      focus: e.target.name,
+      focus: e.target.name as "number" | "name" | "expiry" | "cvc", // Asegurando el tipo correcto
     });
   };
 
@@ -48,7 +48,7 @@ export const CardCredit = () => {
       cvc: "",
       focus: "",
     });
-    dispatch({type: "CLEAR_CART", payload: {} as CartProduct})
+    dispatch({ type: "CLEAR_CART", payload: {} as CartProduct })
   };
 
   return (
@@ -59,7 +59,7 @@ export const CardCredit = () => {
           name={name}
           expiry={expiry}
           cvc={cvc}
-          focused={cardData.focus}
+          focused={focus || undefined}
         />
       </div>
       <form onSubmit={handleSubmit}>
