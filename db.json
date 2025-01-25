@@ -1,0 +1,214 @@
+{
+  "vinilos": [
+    {
+      "id": "1",
+      "title": "Wardrove",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/c7/1d/2c/c71d2c9c-e8c5-8123-441b-b2687803f36e/artwork.jpg/316x316bb.webp",
+      "type": "Alternative",
+      "price": 7500
+    },
+    {
+      "id": "2",
+      "title": "Big Smile, Black Mire",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/13/17/15/13171574-d030-9d8f-ab43-3a240d9f53e9/24SYMIM14865.rgb.jpg/316x316bb.webp",
+      "type": "Alternative",
+      "price": 8000
+    },
+    {
+      "id": "3",
+      "title": "Koyma Hondo - EP",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/ea/e2/95/eae295d3-d06a-35eb-6e3a-2a39abd30ca5/3760179354263_cover.jpg/316x316bb.webp",
+      "type": "African",
+      "price": 5000
+    },
+    {
+      "id": "4",
+      "title": "Miranda Dali (Bonus Track Version) [Remastered]",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/da/8e/36/mzi.lzvyrjqf.jpg/316x316bb.webp",
+      "type": "Electronic",
+      "price": 12000
+    },
+    {
+      "id": "5",
+      "title": "Sin Existencia",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/41/1e/f7/411ef7ad-7acc-6236-db4e-8d352dc17127/0731628580444_cover.jpg/316x316bb.webp",
+      "type": "Electronic",
+      "price": 14000
+    },
+    {
+      "id": "7",
+      "title": "Milano",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/dd/8e/0a/dd8e0a41-ee0c-cb56-5b90-91b5571f31b4/43362.jpg/316x316bb.webp",
+      "type": "Rock",
+      "price": 13000
+    },
+    {
+      "id": "8",
+      "title": "Illuminator",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/59/23/84/5923843e-0782-3cbd-763c-3722c98f6116/46296.jpg/316x316bb.webp",
+      "type": "Indie Rock",
+      "price": 18000
+    },
+    {
+      "id": "9",
+      "title": "Love Songs With A Kick Vol. Two",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/55/e4/9d/55e49d17-1165-d33a-a814-f0084986e247/24SYMIM12807.rgb.jpg/316x316bb.webp",
+      "type": "Alternative",
+      "price": 22000
+    },
+    {
+      "id": "10",
+      "title": "Little Darla Has a Treat for You: Reincarnated Tracks 1995-2009",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/a1/47/fc/a147fca9-0cc5-5908-524d-1df045d282fd/708527035139.jpg/316x316bb.webp",
+      "type": "Rock",
+      "price": 15000
+    },
+    {
+      "id": "11",
+      "title": "Here Comes Everybody + Singles",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d5/ba/f0/d5baf093-7efb-5cc7-9449-376d9e180795/mzi.bnbcnyqz.jpg/316x316bb.webp",
+      "type": "Alternative",
+      "price": 10000
+    },
+    {
+      "id": "12",
+      "title": "Golden Dreams - EP",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/b9/0c/d1/b90cd1ae-61f0-7c93-fdc8-40fd65c95521/Cover.jpg/316x316bb.webp",
+      "type": "Alternative",
+      "price": 18000
+    },
+    {
+      "id": "13",
+      "title": "Moon Phase Gardening",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/09/f0/61/09f06105-8514-8088-f6a9-751c228c4c65/0603051918180_cover.jpg/316x316bb.webp",
+      "type": "Electronic",
+      "price": 16000
+    },
+    {
+      "id": "14",
+      "title": "Bar Mediterraneo",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/a3/19/f2/a319f247-937a-54bd-1c5b-37dbfae26320/8053307091945.jpg/316x316bb.webp",
+      "type": "Electronic",
+      "price": 15000
+    },
+    {
+      "id": "15",
+      "title": "Lollita - EP",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a8/27/5f/a8275fa9-1d40-c7c5-89bc-1bdd2df26531/652637070460.png/316x316bf.webp",
+      "type": "Alternative",
+      "price": 15400
+    },
+    {
+      "id": "16",
+      "title": "Tides End",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/17/96/f7/1796f76c-9b5c-8369-af7a-cb2f284043d4/MINKS_Tides_End_COVER.jpg/316x316bb.webp",
+      "type": "Alternative",
+      "price": 13400
+    },
+    {
+      "id": "17",
+      "title": "Is the Is Are",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/dc/5c/a1/dc5ca10b-6728-e02a-e3cc-26836bcfe1d5/mzm.yufkdqaf.jpg/316x316bb.webp",
+      "type": "Indie Rock",
+      "price": 11400
+    },
+    {
+      "id": "18",
+      "title": "Lesser Matters",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/9b/a1/27/9ba127a4-4a12-43dd-0dce-95515a31f805/634904017781.png/316x316bb.webp",
+      "type": "Alternative",
+      "price": 10400
+    },
+    {
+      "id": "19",
+      "title": "Hibou",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music7/v4/87/e1/37/87e137a3-5279-23da-1d78-c52120b72993/655173115725.jpg/316x316bb.webp",
+      "type": "Alternative",
+      "price": 16400
+    },
+    {
+      "id": "20",
+      "title": "Housepainters",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/16/25/97/162597f8-fa21-a4d5-02d8-d8307b16451f/8721056953813.png/316x316bb.webp",
+      "type": "Alternative",
+      "price": 20400
+    },
+    {
+      "id": "21",
+      "title": "Don't Disturb This Groove",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/y2005/m01/d07/h18/s06.tbnhbynr.jpg/316x316bf.webp",
+      "type": "R&B/SOUL",
+      "price": 22400
+    },
+    {
+      "id": "22",
+      "title": "Wolfgang Amadeus Phoenix",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/28/8d/ab/288dabdd-f8de-80f6-1aab-40a24cb1b33f/00892038002190_Cover.jpg/316x316bb.webp",
+      "type": "Rock",
+      "price": 16400
+    },
+    {
+      "id": "23",
+      "title": "Random Access Memories",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e8/43/5f/e8435ffa-b6b9-b171-40ab-4ff3959ab661/886443919266.jpg/316x316bb.webp",
+      "type": "Pop",
+      "price": 80400
+    },
+    {
+      "id": "24",
+      "title": "Cupid Deluxe",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/52/ac/30/52ac30de-191a-7f46-b6cd-051f5be848ad/BloodOrangeCVRupdated.jpg/316x316bb.webp",
+      "type": "Alternative",
+      "price": 60200
+    },
+    {
+      "id": "25",
+      "title": "The Pleasure Principle",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/40/9f/4b/409f4bcb-512e-11c7-1368-b092dd2f7918/607618001063.png/316x316bf.webp",
+      "type": "Alternative",
+      "price": 30400
+    },
+    {
+      "id": "26",
+      "title": "Boo Boo",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/88/bb/db/88bbdbca-ba60-562f-7d04-30e9fcbf1e3f/677517012187.png/316x316bb.webp",
+      "type": "Rock",
+      "price": 35400
+    },
+    {
+      "id": "27",
+      "title": "Music Has the Right to Children",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/b5/4c/c2/b54cc20d-03f5-f2c4-4a0d-9b51ad65af89/dj.txuslqgv.jpg/316x316bb.webp",
+      "type": "Electronic",
+      "price": 90400
+    },
+    {
+      "id": "28",
+      "title": "The Suburbs",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ea/9f/1a/ea9f1ab0-4cac-c925-590d-14461f676912/886446576510.jpg/316x316bb.webp",
+      "type": "Rock",
+      "price": 40100
+    },
+    {
+      "id": "29",
+      "title": "Coming On Strongerer (20th Anniversary Deluxe Edition)",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Video221/v4/65/36/cd/6536cd78-77a0-d6df-ec71-6ae69b23d9a1/Job0eacd2fe-7802-47ec-93e0-2f42d8f2a7ac-175577657-PreviewImage_Preview_Image_Intermediate_nonvideo_sdr_342621777_1893071779-Time1726254631716.png/316x316bb.webp",
+      "type": "Electronic",
+      "price": 59400
+    },
+    {
+      "id": "30",
+      "title": "The Life of Pablo",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ab/74/4a/ab744ae9-235f-0a2f-9f8a-74ddee3c339e/16UMGIM37046.rgb.jpg/316x316bb.webp",
+      "type": "Hip-Hop/Rap",
+      "price": 100600
+    },
+    {
+      "id": "31",
+      "title": "Plastic Beach",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/b8/f9/b9/b8f9b9f8-a609-bde2-0302-349436ffc508/825646291038.jpg/316x316bb.webp",
+      "type": "Alternative",
+      "price": 120400
+    }
+  ]
+}

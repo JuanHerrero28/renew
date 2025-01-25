@@ -1,0 +1,74 @@
+.container{
+    display: grid;
+      grid-gap: 1rem;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      padding: 60px 30px;
+  }
+  
+  @media (min-width: 992px) {
+    .container{
+      padding: 50px;
+    }
+    
+  }
+  
+  .paginationContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+    padding: 25px;
+  }
+  .paginationActive{
+    color: #fff;
+    font-size: 15px;
+    border: 1px solid #b6b852;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .paginationButton{
+    all: unset;
+      background-color: #b6b852;
+      border-radius: 10px;
+      border: none;
+      color: #fff;
+      cursor: pointer;
+      font-size: 1rem;
+      margin: 0 auto 0.5rem;
+      padding: 0.5rem 1rem;
+      text-align: center;
+      transition: 0.2s ease-in-out;
+      width: 160px;
+  }
+
+  .paginationButton:hover {
+    background-color: #9a9a40;
+    color: #fff;
+    border: none;
+    outline: none;
+}
+
+  .heroTitleContainer h1{
+    color: #b6b852;
+      font-size: 4rem;
+      font-weight: bold;
+      text-align: left;
+      margin-left: 50px;
+      
+  }
+
+  @media (max-width: 768px) {
+    .heroTitleContainer h1 {
+        font-size: 3rem; /* Ajuste para pantallas pequeñas */
+        margin-left: 20px; /* Reducir margen para pantallas pequeñas */
+        text-align: center; /* Cambiar alineación si es necesario */
+    }
+}
+
+  
