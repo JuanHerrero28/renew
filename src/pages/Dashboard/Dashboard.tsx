@@ -9,6 +9,7 @@ const PRODUCTS_PER_PAGE = 5;
 
 const Dashboard = () => {
   const [product, setProduct] = useState({
+    id: "",  // Debería ser un number si la interfaz Product tiene id como number
     title: "",
     image: "",
     type: "",
@@ -81,6 +82,8 @@ const Dashboard = () => {
     setShowProducts(true);
   };
 
+  const errorMessage = error instanceof Error ? error.message : "Ha ocurrido un error";
+
   return (
     <div className={styles.container}>
       <div className={styles.sidebar}>
@@ -101,17 +104,17 @@ const Dashboard = () => {
             {isLoading ? (
               <p>Loading...</p>
             ) : error ? (
-              <p>Error: {error.message}</p>
+              <p>{errorMessage}</p>
             ) : (
               <>
                 <ul>
                   {paginatedProducts.map((product: Product) => (
                     <li key={product.id} className={styles.productItem}>
-                        <img
-                          className={styles.imgDash}
-                          src={product.image}
-                          alt=""
-                        />
+                      <img
+                        className={styles.imgDash}
+                        src={product.image}
+                        alt=""
+                      />
                       <div className={styles.productDetails}>
                         <h3>
                           <span>Album:</span> {product.title}
@@ -126,10 +129,15 @@ const Dashboard = () => {
                       <button
                         className={styles.deleteButton}
                         onClick={() => {
-                          if (product.id !== undefined) {
-                            deleteMutation.mutate(product.id);
+                          if (product.id && product.id.trim() !== "") {
+                            const idNumber = Number(product.id); // Convertimos el string a number
+                            if (!isNaN(idNumber)) {  // Comprobamos si la conversión es exitosa
+                              deleteMutation.mutate(idNumber);  // Pasamos el id como número
+                            } else {
+                              console.error("El ID del producto no es un número válido");
+                            }
                           } else {
-                            console.error("El ID del producto es undefined");
+                            console.error("El ID del producto es vacío o inválido");
                           }
                         }}
                         disabled={deleteMutation.isLoading}
